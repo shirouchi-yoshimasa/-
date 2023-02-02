@@ -1,0 +1,7 @@
+scipy
+matplotlib
+seaborn
+chardet
+scikit-learn
+boto3
+shap
