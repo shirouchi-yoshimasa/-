@@ -5,3 +5,4 @@ chardet
 scikit-learn
 boto3
 shap
+xgboost
