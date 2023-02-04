@@ -39,7 +39,7 @@ import shap
 import streamlit as st
 from PIL import Image
 
-st.title('解析アプリーちゃん')
+st.title('解析アプリ')
 
 st.sidebar.markdown("### csvファイルを入力してください")
 file = st.sidebar.file_uploader("ファイルアップロード", type='csv')
