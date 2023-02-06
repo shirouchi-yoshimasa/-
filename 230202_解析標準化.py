@@ -35,7 +35,7 @@ from scipy import signal
 import requests, zipfile
 from io import StringIO
 import io
-import shap
+#import shap
 import streamlit as st
 from PIL import Image
 
