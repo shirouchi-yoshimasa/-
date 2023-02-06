@@ -42,6 +42,7 @@ from PIL import Image
 st.title('解析アプリ')
 
 st.sidebar.markdown("### csvファイルを入力してください")
+st.sidebar.markdown("### 1行目をラベルにしてください")
 file = st.sidebar.file_uploader("ファイルアップロード", type='csv')
 if file:
     df = pd.read_csv(file)
